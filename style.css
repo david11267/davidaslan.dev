@@ -1,0 +1,34 @@
+:root {
+  --mainBgColor: rgb(0, 0, 0);
+  --mainTxtColor: rgb(255, 255, 255);
+  --linkColor: rgb(0, 0, 0);
+  --hoverLinkColor: hsl(43, 100%, 46%);
+  --nameColor: var(--hoverLinkColor);
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+.contact {
+  color: var(--linkColor);
+  font-size: 8vw;
+}
+
+.contact > :hover {
+  color: var(--hoverLinkColor);
+}
+
+.bi {
+  margin: 1vw;
+}
+
+.techIcon {
+  block-size: 5vw;
+}
+
+.name {
+  color: var(--nameColor);
+}
