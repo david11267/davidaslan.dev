@@ -15,7 +15,7 @@ main {
 
 .contact {
   color: var(--linkColor);
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .contact > :hover {
@@ -27,9 +27,16 @@ main {
 }
 
 .techIcon {
-  block-size: 80px;
+  block-size: 60px;
 }
 
 #jsName {
   color: var(--nameColor);
+}
+
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
 }
