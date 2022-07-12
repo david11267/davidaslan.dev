@@ -1,5 +1,5 @@
 :root {
-  --mainBgColor: rgb(0, 0, 0);
+  --mainBgColor: rgb(249, 254, 255);
   --mainTxtColor: rgb(255, 255, 255);
   --linkColor: rgb(0, 0, 0);
   --hoverLinkColor: hsl(43, 100%, 46%);
@@ -9,12 +9,13 @@
 html,
 body,
 main {
+  background-color: var(--mainBgColor);
   height: 100%;
 }
 
 .contact {
   color: var(--linkColor);
-  font-size: 100px;
+  font-size: 90px;
 }
 
 .contact > :hover {
@@ -26,7 +27,7 @@ main {
 }
 
 .techIcon {
-  block-size: 100px;
+  block-size: 80px;
 }
 
 #jsName {
