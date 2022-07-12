@@ -29,6 +29,6 @@ main {
   block-size: 100px;
 }
 
-.name {
+#jsName {
   color: var(--nameColor);
 }
